@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 64 64"
+     width="64"
+     height="64"
+     role="img"
+     aria-labelledby="title">
+  <title id="title">Electrically shocked figure</title>
+
+  <!-- Enlarged pointy bolts -->
+  <g fill="currentColor">
+    <path d="M3 10h12l-5.5 9h7L3 37l3.5-13H0z"/>
+    <path d="M61 10H49l5.5 9h-7L61 37l-3.5-13H64z"/>
+  </g>
+
+  <!-- Raised arms -->
+  <g fill="none"
+     stroke="currentColor"
+     stroke-width="7"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <path d="M24 55 10.5 43 18 33"/>
+    <path d="M40 55 53.5 43 46 33"/>
+  </g>
+
+  <!-- Minimal neck and torso -->
+  <g fill="currentColor">
+    <path d="M29.5 43h5v10h-5z"/>
+    <path d="M24 53
+             C26.5 50.5 29 49.5 32 49.5
+             C35 49.5 37.5 50.5 40 53
+             L41 64H23Z"/>
+  </g>
+
+  <!--
+    Solid head and hair silhouette. The enlarged eyes and mouth are
+    transparent holes formed by the even-odd fill rule.
+  -->
+  <path fill="currentColor"
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M19.5 25
+           L15.5 16
+           L24 18
+           L22.5 8.5
+           L29 14
+           L32 4.5
+           L35 14
+           L42 7.5
+           L40.5 17.5
+           L49 14.5
+           L44.5 24
+           C46.5 27.5 47 31.5 46 35.5
+           C44.5 42 39 47 32 48
+           C25 47 19.5 42 18 35.5
+           C17 31.5 17.5 27.5 19.5 25
+           Z
+
+           M30.52 31.2
+           A2.82 3.9 0 1 1 24.88 31.2
+           A2.82 3.9 0 1 1 30.52 31.2
+           Z
+
+           M39.12 31.2
+           A2.82 3.9 0 1 1 33.48 31.2
+           A2.82 3.9 0 1 1 39.12 31.2
+           Z
+
+           M36.68 39
+           A4.68 5.88 0 1 1 27.32 39
+           A4.68 5.88 0 1 1 36.68 39
+           Z"/>
+</svg>
